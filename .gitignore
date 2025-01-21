@@ -1,0 +1,44 @@
+# Global ignores
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js (Next.js Front End)
+ai-branding-assistant/node_modules/   # Dependency directory
+ai-branding-assistant/.next/          # Build directory
+ai-branding-assistant/out/            # Output directory for static export
+ai-branding-assistant/.env            # Environment variables
+ai-branding-assistant/.env.local      # Local environment variables
+ai-branding-assistant/.env.*.local    # Other local env files
+ai-branding-assistant/.eslintcache    # ESLint cache
+ai-branding-assistant/.parcel-cache/  # Parcel bundler cache
+
+# IDE/Editor files
+ai-branding-assistant/.idea/          # IntelliJ files
+ai-branding-assistant/.vscode/        # VS Code settings
+
+# Python (Flask Back End)
+flask-backend/venv/                   # Virtual environment directory
+flask-backend/__pycache__/            # Python bytecode cache
+flask-backend/*.py[cod]               # Compiled Python files
+flask-backend/instance/               # Instance folder for Flask (if used)
+flask-backend/.pytest_cache/          # Pytest cache files
+flask-backend/*.db                    # Database files (e.g., SQLite)
+flask-backend/.env                    # Flask environment variables
+
+# MacOS system files
+*.DS_Store
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.swo
+*.patch
